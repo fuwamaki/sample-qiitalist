@@ -32,7 +32,7 @@ struct ContentView: View {
                     ActivityIndicator()
                 }
             }
-            .navigationBarTitle(Text("Qiita記事一覧"))
+            .navigationBarTitle(Text("リスト"))
         }
         .searchable(text: $keyword)
         .onSubmit(of: .search, {
